@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tran Thi The Nhan — AI Engineering Intern</title>
+<title>Tran Thi The Nhan Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -509,11 +509,11 @@ footer a{color:var(--accent);text-decoration:none}
     'tag.py':  { en: 'Python',           vi: 'Python' },
 
     /* About */
-    'about.label':       { en: 'About Me',  vi: 'Về tôi' },
+    'about.label':       { en: 'About Me',  vi: 'Về tui' },
     'about.title':       { en: 'Driven by curiosity,<br>powered by code',
                            vi: 'Đam mê tìm tòi,<br>thực hiện bằng mã nguồn' },
-    'about.body':        { en: "I'm a <strong>third-year Computer Science student</strong> at Ton Duc Thang University in Vietnam, focused on <strong>artificial intelligence</strong>, computer vision, and Python software engineering. I'm currently looking for an AI engineering internship where I can contribute to real-world systems while learning from a strong engineering team.",
-                           vi: 'Tôi là <strong>sinh viên Khoa học Máy tính năm ba</strong> tại Trường Đại học Tôn Đức Thắng, tập trung vào <strong>trí tuệ nhân tạo</strong>, thị giác máy tính và lập trình phần mềm bằng Python. Hiện tôi đang tìm vị trí thực tập kỹ thuật AI để được đóng góp vào các hệ thống thực tế trong khi học hỏi từ một đội ngũ kỹ thuật vững mạnh.' },
+    'about.body':        { en: "I'm a <strong>third-year Computer Science student</strong> at Ton Duc Thang University in Vietnam, focused on <strong>Artificial Intelligence</strong>, computer vision, and Python software engineering. I'm currently looking for an AI engineering internship where I can contribute to real-world systems while learning from a strong engineering team.",
+                           vi: 'Tôi là <strong>sinh viên Khoa học Máy tính năm ba</strong> tại Trường Đại học Tôn Đức Thắng, tập trung vào <strong>Trí Tuệ Nhân Tạo (AI)</strong>, thị giác máy tính và lập trình phần mềm bằng Python, hihi. Hiện tôi đang tìm vị trí thực tập kỹ thuật AI để được đóng góp vào các hệ thống thực tế trong khi học hỏi từ một đội ngũ kỹ thuật vững mạnh.' },
     'about.statProjects':{ en: 'AI Project',     vi: 'Dự án AI' },
     'about.statCerts':   { en: 'Certification',  vi: 'Chứng chỉ' },
     'about.statGrad':    { en: 'Graduating',     vi: 'Tốt nghiệp' },
@@ -552,7 +552,7 @@ footer a{color:var(--accent);text-decoration:none}
                             vi: 'Một pipeline đầu-cuối kết hợp hai encoder thị giác đông cứng (BiomedCLIP + DINOv3) với mô hình ngôn ngữ lâm sàng tiếng Việt (ViHealthBERT) và bộ giải mã Qwen2.5-3B lượng tử hóa 4-bit, kết nối qua adapter Multi-Scale Cross-Attention tùy chỉnh và huấn luyện với hàm Clinical-Token Priority Loss mới.' },
     'proj.resultLabel':   { en: 'Key Achievement',vi: 'Thành tựu chính' },
     'proj.result':        { en: 'On an 800-sample held-out test set, our 3B-parameter system beats every published 2B–4B baseline (Qwen2.5-VL, InternVL3, Gemma-3) across ROUGE-L, BLEU-4, and Medical Diagnostic Recall, trained on a single Kaggle T4 GPU.',
-                            vi: 'Trên tập kiểm thử 800 mẫu, hệ thống 3B-tham-số của chúng tôi vượt mọi baseline 2B–4B đã công bố (Qwen2.5-VL, InternVL3, Gemma-3) trên ROUGE-L, BLEU-4 và Medical Diagnostic Recall — được huấn luyện trên một GPU Kaggle T4 duy nhất.' },
+                            vi: 'Trên tập kiểm thử 800 mẫu, hệ thống 3B-tham-số của chúng tôi vượt mọi baseline 2B–4B đã công bố (Qwen2.5-VL, InternVL3, Gemma-3) trên ROUGE-L, BLEU-4 và Medical Diagnostic Recall, được huấn luyện trên một GPU Kaggle T4.' },
     'proj.roleLabel':     { en: 'My Role',        vi: 'Vai trò của tôi' },
     'proj.roleDesc':      { en: 'Lead author. Designed the four-module architecture, built the Vietnamese-aware text pipeline (DP syllable re-segmenter, lexicon-driven preprocessing, augmentation), implemented CTPL loss, ran all four ablation experiments (E0–E3), and wrote the report.',
                             vi: 'Tác giả chính. Thiết kế kiến trúc bốn mô-đun, xây dựng pipeline văn bản hiểu tiếng Việt (bộ tách-lại âm tiết DP, tiền-xử-lý dẫn-bởi-từ-điển, augmentation), triển khai hàm mất mát CTPL, chạy cả bốn thử nghiệm ablation (E0–E3), và viết báo cáo.' },
@@ -688,12 +688,12 @@ footer a{color:var(--accent);text-decoration:none}
     mt = setTimeout(() => glow.classList.remove('active'), 2000);
   });
 
-  /* ─── 5. Marquee population ─────────────────────────────────────── */
+  /* 5. Marquee population */
   // The CSS rule `.marquee:hover .marquee-inner { animation-play-state: paused }`
   // is what actually pauses the scroll when the cursor enters the marquee strip.
   // We render the items only once here.
   const items = ['Deep Learning','Computer Vision','NLP','PyTorch','TensorFlow',
-                 'Python','Draw.io','Kaggle',
+                 'Python','Draw.io','Kaggle', 'MySQL',
                  'Software Engineering','Internship'];
   const mq = document.getElementById('marquee');
   let h = '';
